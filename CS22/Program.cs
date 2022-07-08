@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CS22
 {
@@ -21,8 +21,7 @@ namespace CS22
             }
             
             for (int i = 1; i < array.Length - 1; i++)
-            {
-                
+            { 
                 if (array[i] > array[i + 1] && array[i] > array[i - 1])
                 {
                     Console.WriteLine(array[i]); 
